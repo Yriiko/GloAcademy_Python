@@ -1,6 +1,6 @@
 # Задание 2
-s = input()
-if 'Glo Academy' in s:
+article = input()
+if 'Glo Academy' in article:
     print('YES')
 else:
     print('NO')

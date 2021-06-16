@@ -1,3 +1,3 @@
 # Задание 4
-s = input()
-print(s * 5)
+team_name = input()
+print(team_name * 5)

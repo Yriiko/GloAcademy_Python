@@ -1,18 +1,18 @@
 # Задание 3
 from math import *
-a = input()
-b = input()
-c = input()
+article_1 = input()
+article_2 = input()
+article_3 = input()
 
-d = len(a)
-e = len(b)
-f = len(c)
+len_1 = len(article_1)
+len_2 = len(article_2)
+len_3 = len(article_3)
 
-g = max(d, e, f)
+max_len = max(len_1, len_2, len_3)
 
-if g == d:
-    print(a)
-elif g == e:
-    print(b)
+if max_len == len_1:
+    print(article_1)
+elif max_len == len_2:
+    print(article_2)
 else:
-    print(c)
+    print(article_3)

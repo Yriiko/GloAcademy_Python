@@ -1,7 +1,8 @@
 # Задание 5
 email = input()
 
-if '@' and '.' not in email:
-    print('Некорректный')
-else:
+if '@' in email and '.' in email:
     print('Корректный')
+
+else:
+    print('Некорректный')
